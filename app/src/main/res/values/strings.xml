@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">BankingSystem</string>
+    <string name="title">ABC Banking</string>
+
+    <string name="Name">Customer Name :</string>
+    <string name="Account_No">Account No :</string>
+    <string name="Bank">Bank :</string>
+    <string name="Account_type">Account Type :</string>
+    <string name="Current">Current Amount :</string>
+
+    <string name="dummy">xxxxxx</string>
+
+    <string name="button1">View Customers</string>
+    <string name="button2">History</string>
+
 </resources>

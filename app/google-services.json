@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "68023486877",
+    "project_id": "banking-system-8fe21",
+    "storage_bucket": "banking-system-8fe21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68023486877:android:7b2fb55e4a752728c1c774",
+        "android_client_info": {
+          "package_name": "com.example.bankingsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtHrv2KacwQnfqW7-uUFuqOHsvGvjBufs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,18 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/material_dynamic_tertiary40"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_marginTop="20sp"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/viewcustomers_bt"
+        android:layout_width="280sp"
+        android:layout_height="65sp"
+        android:layout_marginStart="65sp"
+        android:layout_marginTop="150sp"
+        android:text="@string/button1"
+        android:textAlignment="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+         android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/history_bt"
+        android:layout_width="280sp"
+        android:layout_height="65sp"
+        android:layout_marginStart="65sp"
+        android:layout_marginTop="10sp"
+        android:text="@string/button2"
+        android:textAlignment="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="@string/Name" />
+
+        <TextView
+            android:id="@+id/name_answer_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30sp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="@string/dummy" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/account_no_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="@string/Account_No" />
+
+        <TextView
+            android:id="@+id/account_no_answer_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30sp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="@string/dummy" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/type_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="@string/Account_type" />
+
+        <TextView
+            android:id="@+id/type_answer_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30sp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="@string/dummy" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/cureent_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="@string/Current" />
+
+        <TextView
+            android:id="@+id/current_answer_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30sp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="@string/dummy" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BankingSystem"
         tools:targetApi="31">
         <activity
+            android:name=".User_List"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
